@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './Components/Navigation/Navigation.jsx'
+import PomodoroContainer from './Components/Pomodoro/PomodoroContainer';
+import { TimerContext } from './Components/Store/Context/TimerContext';
+// import Container from './Components/UI/Container/Container.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <TimerContext>
+    <div className="container">
+     <div className='nav'>
+       <Navigation/>
+     </div>
+     <div className='main'>
+       <section className='time__todo'>
+         <div className='time'>
+           <PomodoroContainer/>
+         </div>
+         <div className='todoCon'></div>
+       </section>
+       <section className='quote'></section>
+     </div>
     </div>
+    </TimerContext>
   );
 }
 

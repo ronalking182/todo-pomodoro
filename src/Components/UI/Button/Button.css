@@ -1,0 +1,30 @@
+button{
+    color:#696860;
+	font-size:0.8rem;
+	padding: 6px 5px;
+	border:none;
+	border-radius:10px;
+	margin:0.2rem;;
+	margin:auto;
+	background-color: #E8F4E8;
+	width: 40%;
+	cursor: pointer;
+    
+}
+.button.active{
+    color: #85d272;
+}
+@media screen and (max-width:550px) {
+	button{
+		font-size: 0.5rem;
+		margin:0.2rem;
+	}
+}
+
+
+@media screen and (min-width:800px) {
+	button{
+		width: 50%;
+	}
+}
+

@@ -1,0 +1,55 @@
+.form-container {
+	text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+	padding: 0.7rem;
+    text-align: center;
+}
+
+
+
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+
+}
+.but Button{
+    height: 25px !important;
+    margin-bottom: 6px !important;
+	padding: 0.7rem !important;
+}
+
+.active-label {
+	color: #0C0E1B;
+	background-color: #FE6F6B;
+	}
+
+
+.activeBTN{
+display: flex;
+	border-radius: 1.5rem;
+}
+
+.activeBTN Button{
+    margin: 5px;
+    width: 33%;
+}
+
+
+@media screen and (min-width:768px) {
+    .activeBTN Button{
+        margin: 5px;
+        width: 33%;
+    }
+}
