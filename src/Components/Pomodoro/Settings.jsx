@@ -68,9 +68,9 @@ function handleSubmitTimer(event){
   <form noValidate onSubmit={handleSubmitTimer} >
      <span className='m'>
      <Button title='set Timer' type='submit'/>
-         <input type='number' name='work' onChange={handleChangeTImer} value={Timer.work}/>
-         <input type='number' name='shortBreak' onChange={handleChangeTImer} value={Timer.shortBreak}/>
-         <input type='number' name='longBreak' onChange={handleChangeTImer} value={Timer.longBreak}/>
+         <input type='number' className='input' name='work' onChange={handleChangeTImer} value={Timer.work}/>
+         <input type='number' className='input' name='shortBreak' onChange={handleChangeTImer} value={Timer.shortBreak}/>
+         <input type='number'  className='input' name='longBreak' onChange={handleChangeTImer} value={Timer.longBreak}/>
      </span>
      <span className='but'>
        <div onClick={StartTimer}>

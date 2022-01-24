@@ -12,7 +12,7 @@ const AnimationCountDown = ({children, key, animate, timer}) => {
         duration={timer * 60}
         colors={[['#151932']]}
         strokeWidth={6}
-        size={140}
+        size={130}
         trailColor='#FE6F6B'
         onComplete={() =>{
             StopTimer()

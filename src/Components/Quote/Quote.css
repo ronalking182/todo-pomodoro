@@ -1,0 +1,51 @@
+.quote__section{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-image: url('../images/quote_image.jpeg');
+    object-fit: contain;
+}
+
+.current__time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+
+.current__time p{
+    font-size: 2.4rem;
+}
+
+.main__quote{
+    width: 70%;
+    height: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    align-self: center !important;
+    justify-content: center !important;
+}
+
+.main__quote p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width:414px) {
+    .current__time p{
+        font-size: 1.5rem;
+    }
+    .main__quote{
+        padding: 5px;
+    }
+    .main__quote p{
+        font-size: 1.5rem;
+    }
+}

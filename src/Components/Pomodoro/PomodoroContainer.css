@@ -39,14 +39,12 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* background-color: red; */
     padding: 0 15px;
 }
 
 .circle{
  width: 30%;
  height: 100%;
- /* background-color: orange; */
 }
 
 .btn{

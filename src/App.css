@@ -48,6 +48,8 @@ padding: 15px;
     border-radius: 10px;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .quote{

@@ -7,7 +7,7 @@ button{
 	margin:0.2rem;;
 	margin:auto;
 	background-color: #E8F4E8;
-	width: 40%;
+	/* width: 40%; */
 	cursor: pointer;
     
 }

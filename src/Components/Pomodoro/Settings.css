@@ -38,6 +38,8 @@ input{
 
 .activeBTN{
 display: flex;
+align-items: center;
+justify-content: center;
 	border-radius: 1.5rem;
 }
 
@@ -46,6 +48,35 @@ display: flex;
     width: 33%;
 }
 
+
+/* .input{
+
+} */
+
+
+@media screen and (max-width:412px) {
+
+    input{
+        height: 20px;
+        width: 40%;
+        margin: 5px;
+        border-radius: 10px;
+        border: none;
+        padding: 0.7rem;
+        text-align: center;
+    }
+
+    .activeBTN{
+        position: relative;
+        top: 20px;
+    }
+
+}
+@media screen and (max-width:540px) {
+    input{
+        width: 40%;
+    }
+}
 
 @media screen and (min-width:768px) {
     .activeBTN Button{
